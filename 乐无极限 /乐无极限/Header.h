@@ -15,6 +15,7 @@
 #import "NSObject+MJKeyValue.h"
 
 
+#define Plist [dic writeToFile:@"/Users/lanou3g/Desktop/pppp/nee.plst" atomically:YES];
 #define Image [UIImage imageNamed:@"aa"]
 #define ScreenWidth    [[UIScreen mainScreen] bounds].size.width
 #define ScreenHeight   [[UIScreen mainScreen] bounds ].size.height

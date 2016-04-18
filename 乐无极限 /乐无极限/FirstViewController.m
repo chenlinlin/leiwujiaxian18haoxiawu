@@ -26,7 +26,6 @@
 }
 -(void)view1{
     
-  
     self.tabelView1 =[[UITableView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenHeight-44) style:(UITableViewStylePlain)];
     [self.view addSubview:self.tabelView1];
     [self.tabelView1 registerClass:[NewsCell class] forCellReuseIdentifier:@"newscell"];
