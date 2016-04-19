@@ -12,7 +12,7 @@
 #import "Header.h"
 #import "AllCityModel.h"
 #import "CityCodeTableViewController.h"
-@interface WeatherViewController ()<UITableViewDataSource,UITableViewDelegate>
+@interface WeatherViewController ()
 @property(nonatomic,strong)UIView *vie11;
 @property(nonatomic, assign)NSInteger responseCode;
 @property(nonatomic,strong)CityModel *cityM;
@@ -29,16 +29,17 @@
 @implementation WeatherViewController
 
 -(void)viewWillAppear:(BOOL)animated{
+    self.wView.dView.image =[UIImage imageNamed:@"tu"];
     
-    self.wView =[[WeatherView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenHeight)];
-    [self.view addSubview:self.wView];
     [self tianqi];
     
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-  
+    
+    self.wView =[[WeatherView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenHeight)];
+    [self.view addSubview:self.wView];
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"iconfont-shezhichilun.png"] style:UIBarButtonItemStyleDone target:self action:@selector(jump:)];
    
@@ -51,7 +52,6 @@
     cicoVC.blockCity = ^(NSString *string){
         
         temp.strUTF8 = string;
-        //        NSLog(@"-=-=%@",_strUTF8);
         
     };
     
@@ -61,7 +61,6 @@
     [self.navigationController pushViewController:cicoVC animated:YES];
 }
 -(void)tianqi{
-    NSLog(@"2");
     NSString *httpUrl = @"http://apis.baidu.com/showapi_open_bus/weather_showapi/address";
     if (_strUTF8 == nil) {
         _strUTF8 = @"北京";
@@ -108,10 +107,7 @@
                                    [_cityM setValuesForKeysWithDictionary:_cityM.f1];
                                    [_cityM setValuesForKeysWithDictionary:_cityM.f2];
                                    [_cityM setValuesForKeysWithDictionary:_cityM.now];
-                                   
-                                   
-                                   
-                                   
+
                                }
                                dispatch_async(dispatch_get_main_queue(), ^{
                                    
@@ -125,15 +121,21 @@
     
 }
 -(void)parserData{
-    NSLog(@"112");
-    NSLog(@"%@",_cityM.now);
+ 
+    if ([_cityM.now[@"weather"] isEqualToString:@"阴"]) {
+        self.wView.dView.image =[UIImage imageNamed:@"tu"];
+    }else if ([_cityM.now[@"weather"] isEqualToString:@"晴"]){
+        self.wView.dView.image =[UIImage imageNamed:@"qing"];
+
+    }
+    
     self.wView.cityIdLabel.text = _cityM.cityInfo[@"c1"];
     self.wView.cityLabel.text = _cityM.cityInfo[@"c3"];
     NSMutableString *String1 = [[NSMutableString alloc] initWithString:_cityM.f1[@"day"]];
     [String1 insertString:@" " atIndex:4];
     [String1 insertString:@" " atIndex:7];
     self.wView.dateLabel.text =String1;
-    self.wView.temperaLabel.text = [NSString stringWithFormat:@"当前气温:     %@ ℃",_cityM.now[@"temperature"]];
+    self.wView.temperaLabel.text = [NSString stringWithFormat:@"当前气温:  %@ ℃",_cityM.now[@"temperature"]];
     self.wView.weatherTypeLabel.text = _cityM.now[@"weather"];
     [self.wView.picView sd_setImageWithURL:[NSURL URLWithString: _cityM.now[@"weather_pic"]]];
     self.wView.daytemperaLabel.text = [NSString stringWithFormat:@"%@ ℃", _cityM.f1[@"day_air_temperature"]];
@@ -143,7 +145,13 @@
     self.wView.zhiliangLabel.text = _cityM.now[@"aqiDetail"][@"quality"];
 }
 
+-(void)viewWillDisappear:(BOOL)animated{
+    
+    NSLog(@"222");
+    self.hidesBottomBarWhenPushed=NO;
 
+    
+}
 
 
 

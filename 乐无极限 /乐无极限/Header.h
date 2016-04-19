@@ -13,9 +13,10 @@
 #import <MJRefresh.h>
 #import <AFNetworking.h>
 #import "NSObject+MJKeyValue.h"
+#import <SVProgressHUD.h>
 
 
-#define Plist [dic writeToFile:@"/Users/lanou3g/Desktop/pppp/nee.plst" atomically:YES];
+#define Plist [dic writeToFile:@"/Users/lanou3g/Desktop/pppp/nee.plist" atomically:YES];
 #define Image [UIImage imageNamed:@"aa"]
 #define ScreenWidth    [[UIScreen mainScreen] bounds].size.width
 #define ScreenHeight   [[UIScreen mainScreen] bounds ].size.height

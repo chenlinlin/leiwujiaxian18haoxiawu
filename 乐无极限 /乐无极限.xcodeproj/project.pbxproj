@@ -25,6 +25,28 @@
 		C2114C341CC100D9008226DA /* NewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2114C331CC100D9008226DA /* NewsModel.m */; };
 		C2114C371CC10771008226DA /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2114C361CC10771008226DA /* NewsViewController.m */; };
 		C2114C3A1CC10D11008226DA /* NSString+Html.m in Sources */ = {isa = PBXBuildFile; fileRef = C2114C391CC10D11008226DA /* NSString+Html.m */; };
+		C24705291CC5C4ED00DA77D0 /* TourismModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C24705281CC5C4ED00DA77D0 /* TourismModel.m */; };
+		C247052C1CC5D7D400DA77D0 /* RegionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C247052B1CC5D7D400DA77D0 /* RegionTableViewController.m */; };
+		C247052F1CC5E5E500DA77D0 /* AttractionsableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C247052E1CC5E5E500DA77D0 /* AttractionsableViewController.m */; };
+		C24705321CC6020D00DA77D0 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C24705311CC6020D00DA77D0 /* DetailsViewController.m */; };
+		C24705351CC60B0500DA77D0 /* FoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C24705341CC60B0500DA77D0 /* FoodTableViewController.m */; };
+		C247053D1CC61B9600DA77D0 /* qing.png in Resources */ = {isa = PBXBuildFile; fileRef = C247053B1CC61B9600DA77D0 /* qing.png */; };
+		C247053E1CC61B9600DA77D0 /* tu.png in Resources */ = {isa = PBXBuildFile; fileRef = C247053C1CC61B9600DA77D0 /* tu.png */; };
+		C24705411CC6377B00DA77D0 /* FoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C24705401CC6377B00DA77D0 /* FoodModel.m */; };
+		C24705451CC6399400DA77D0 /* FoodCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C24705431CC6399400DA77D0 /* FoodCollectionViewCell.m */; };
+		C24705461CC6399400DA77D0 /* FoodCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C24705441CC6399400DA77D0 /* FoodCollectionViewCell.xib */; };
+		C247054A1CC63D7800DA77D0 /* WYScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C24705491CC63D7800DA77D0 /* WYScrollView.m */; };
+		C24705501CC644EC00DA77D0 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C247054B1CC644EC00DA77D0 /* 1.jpg */; };
+		C24705511CC644EC00DA77D0 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C247054C1CC644EC00DA77D0 /* 2.jpg */; };
+		C24705521CC644EC00DA77D0 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C247054D1CC644EC00DA77D0 /* 3.jpg */; };
+		C24705531CC644EC00DA77D0 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C247054E1CC644EC00DA77D0 /* 4.jpg */; };
+		C24705541CC644EC00DA77D0 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C247054F1CC644EC00DA77D0 /* 5.jpg */; };
+		C247055A1CC6485E00DA77D0 /* FoodDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C24705591CC6485E00DA77D0 /* FoodDetailsTableViewController.m */; };
+		C247055E1CC64CB600DA77D0 /* FoodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C247055C1CC64CB600DA77D0 /* FoodTableViewCell.m */; };
+		C247055F1CC64CB600DA77D0 /* FoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C247055D1CC64CB600DA77D0 /* FoodTableViewCell.xib */; };
+		C24705621CC64FD400DA77D0 /* FoodModel11.m in Sources */ = {isa = PBXBuildFile; fileRef = C24705611CC64FD400DA77D0 /* FoodModel11.m */; };
+		C24705661CC6557400DA77D0 /* 播放.png in Resources */ = {isa = PBXBuildFile; fileRef = C24705651CC6557400DA77D0 /* 播放.png */; };
+		C24705691CC65E9D00DA77D0 /* PlayVeiw.m in Sources */ = {isa = PBXBuildFile; fileRef = C24705681CC65E9D00DA77D0 /* PlayVeiw.m */; };
 		C2B5E5351CC1D2E700830132 /* aa.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B5E5341CC1D2E700830132 /* aa.png */; };
 		C2D9A7FA1CC4D28900F2BE50 /* WeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D9A7F91CC4D28900F2BE50 /* WeatherView.m */; };
 		C2D9A83D1CC4E39900F2BE50 /* CityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D9A83C1CC4E39900F2BE50 /* CityModel.m */; };
@@ -34,7 +56,9 @@
 		C2D9A84B1CC5136100F2BE50 /* iconfont-shezhichilun.png in Resources */ = {isa = PBXBuildFile; fileRef = C2D9A8491CC5136100F2BE50 /* iconfont-shezhichilun.png */; };
 		C2D9A84C1CC5136100F2BE50 /* iconfont-cuohao.png in Resources */ = {isa = PBXBuildFile; fileRef = C2D9A84A1CC5136100F2BE50 /* iconfont-cuohao.png */; };
 		C2D9A84E1CC51A5E00F2BE50 /* u=1050922363,2663955196&fm=21&gp=0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2D9A84D1CC51A5E00F2BE50 /* u=1050922363,2663955196&fm=21&gp=0.jpg */; };
-		C2D9A8501CC51C8100F2BE50 /* tu.png in Resources */ = {isa = PBXBuildFile; fileRef = C2D9A84F1CC51C8100F2BE50 /* tu.png */; };
+		C2E9E81E1CC52AF1001858F7 /* TourismTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E81D1CC52AF1001858F7 /* TourismTableViewController.m */; };
+		C2E9E8221CC52BC8001858F7 /* TourismCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E8201CC52BC8001858F7 /* TourismCell.m */; };
+		C2E9E8231CC52BC8001858F7 /* TourismCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2E9E8211CC52BC8001858F7 /* TourismCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +95,40 @@
 		C2114C361CC10771008226DA /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
 		C2114C381CC10D11008226DA /* NSString+Html.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Html.h"; sourceTree = "<group>"; };
 		C2114C391CC10D11008226DA /* NSString+Html.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Html.m"; sourceTree = "<group>"; };
+		C24705271CC5C4ED00DA77D0 /* TourismModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourismModel.h; sourceTree = "<group>"; };
+		C24705281CC5C4ED00DA77D0 /* TourismModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourismModel.m; sourceTree = "<group>"; };
+		C247052A1CC5D7D400DA77D0 /* RegionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionTableViewController.h; sourceTree = "<group>"; };
+		C247052B1CC5D7D400DA77D0 /* RegionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionTableViewController.m; sourceTree = "<group>"; };
+		C247052D1CC5E5E500DA77D0 /* AttractionsableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttractionsableViewController.h; sourceTree = "<group>"; };
+		C247052E1CC5E5E500DA77D0 /* AttractionsableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttractionsableViewController.m; sourceTree = "<group>"; };
+		C24705301CC6020D00DA77D0 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		C24705311CC6020D00DA77D0 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		C24705331CC60B0500DA77D0 /* FoodTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableViewController.h; sourceTree = "<group>"; };
+		C24705341CC60B0500DA77D0 /* FoodTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableViewController.m; sourceTree = "<group>"; };
+		C247053B1CC61B9600DA77D0 /* qing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qing.png; sourceTree = "<group>"; };
+		C247053C1CC61B9600DA77D0 /* tu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tu.png; sourceTree = "<group>"; };
+		C247053F1CC6377B00DA77D0 /* FoodModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodModel.h; sourceTree = "<group>"; };
+		C24705401CC6377B00DA77D0 /* FoodModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodModel.m; sourceTree = "<group>"; };
+		C24705421CC6399400DA77D0 /* FoodCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCollectionViewCell.h; sourceTree = "<group>"; };
+		C24705431CC6399400DA77D0 /* FoodCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCollectionViewCell.m; sourceTree = "<group>"; };
+		C24705441CC6399400DA77D0 /* FoodCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodCollectionViewCell.xib; sourceTree = "<group>"; };
+		C24705481CC63D7800DA77D0 /* WYScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYScrollView.h; sourceTree = "<group>"; };
+		C24705491CC63D7800DA77D0 /* WYScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYScrollView.m; sourceTree = "<group>"; };
+		C247054B1CC644EC00DA77D0 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		C247054C1CC644EC00DA77D0 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		C247054D1CC644EC00DA77D0 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		C247054E1CC644EC00DA77D0 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		C247054F1CC644EC00DA77D0 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		C24705581CC6485E00DA77D0 /* FoodDetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailsTableViewController.h; sourceTree = "<group>"; };
+		C24705591CC6485E00DA77D0 /* FoodDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailsTableViewController.m; sourceTree = "<group>"; };
+		C247055B1CC64CB600DA77D0 /* FoodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableViewCell.h; sourceTree = "<group>"; };
+		C247055C1CC64CB600DA77D0 /* FoodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableViewCell.m; sourceTree = "<group>"; };
+		C247055D1CC64CB600DA77D0 /* FoodTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodTableViewCell.xib; sourceTree = "<group>"; };
+		C24705601CC64FD400DA77D0 /* FoodModel11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodModel11.h; sourceTree = "<group>"; };
+		C24705611CC64FD400DA77D0 /* FoodModel11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodModel11.m; sourceTree = "<group>"; };
+		C24705651CC6557400DA77D0 /* 播放.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放.png"; sourceTree = "<group>"; };
+		C24705671CC65E9D00DA77D0 /* PlayVeiw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayVeiw.h; sourceTree = "<group>"; };
+		C24705681CC65E9D00DA77D0 /* PlayVeiw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayVeiw.m; sourceTree = "<group>"; };
 		C2B5E5301CC1D13E00830132 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		C2B5E5341CC1D2E700830132 /* aa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa.png; sourceTree = "<group>"; };
 		C2D9A7F81CC4D28900F2BE50 /* WeatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherView.h; sourceTree = "<group>"; };
@@ -86,7 +144,11 @@
 		C2D9A8491CC5136100F2BE50 /* iconfont-shezhichilun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-shezhichilun.png"; sourceTree = "<group>"; };
 		C2D9A84A1CC5136100F2BE50 /* iconfont-cuohao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-cuohao.png"; sourceTree = "<group>"; };
 		C2D9A84D1CC51A5E00F2BE50 /* u=1050922363,2663955196&fm=21&gp=0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "u=1050922363,2663955196&fm=21&gp=0.jpg"; sourceTree = "<group>"; };
-		C2D9A84F1CC51C8100F2BE50 /* tu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tu.png; sourceTree = "<group>"; };
+		C2E9E81C1CC52AF1001858F7 /* TourismTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourismTableViewController.h; sourceTree = "<group>"; };
+		C2E9E81D1CC52AF1001858F7 /* TourismTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourismTableViewController.m; sourceTree = "<group>"; };
+		C2E9E81F1CC52BC8001858F7 /* TourismCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourismCell.h; sourceTree = "<group>"; };
+		C2E9E8201CC52BC8001858F7 /* TourismCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourismCell.m; sourceTree = "<group>"; };
+		C2E9E8211CC52BC8001858F7 /* TourismCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TourismCell.xib; sourceTree = "<group>"; };
 		F218EAB2B28EA58C820D58EF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,7 +207,6 @@
 				C2114BE71CC07CF4008226DA /* ViewController.h */,
 				C2114BE81CC07CF4008226DA /* ViewController.m */,
 				C2114C241CC082AC008226DA /* 其他 */,
-				C2114BF81CC07D0E008226DA /* First */,
 				C2114BFF1CC07DA6008226DA /* Secont */,
 				C2114C051CC07E0B008226DA /* Third */,
 				C2114C091CC07E40008226DA /* Fourth */,
@@ -192,8 +253,6 @@
 			children = (
 				C2114C2F1CC100C5008226DA /* NewsCell.h */,
 				C2114C301CC100C5008226DA /* NewsCell.m */,
-				C2114C351CC10771008226DA /* NewsViewController.h */,
-				C2114C361CC10771008226DA /* NewsViewController.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -203,6 +262,8 @@
 			children = (
 				C2114BFC1CC07D62008226DA /* FirstViewController.h */,
 				C2114BFD1CC07D62008226DA /* FirstViewController.m */,
+				C2114C351CC10771008226DA /* NewsViewController.h */,
+				C2114C361CC10771008226DA /* NewsViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -257,6 +318,12 @@
 				C2D9A83C1CC4E39900F2BE50 /* CityModel.m */,
 				C2D9A8431CC510DF00F2BE50 /* AllCityModel.h */,
 				C2D9A8441CC510DF00F2BE50 /* AllCityModel.m */,
+				C24705271CC5C4ED00DA77D0 /* TourismModel.h */,
+				C24705281CC5C4ED00DA77D0 /* TourismModel.m */,
+				C247053F1CC6377B00DA77D0 /* FoodModel.h */,
+				C24705401CC6377B00DA77D0 /* FoodModel.m */,
+				C24705601CC64FD400DA77D0 /* FoodModel11.h */,
+				C24705611CC64FD400DA77D0 /* FoodModel11.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -266,6 +333,15 @@
 			children = (
 				C2D9A7F81CC4D28900F2BE50 /* WeatherView.h */,
 				C2D9A7F91CC4D28900F2BE50 /* WeatherView.m */,
+				C2E9E81F1CC52BC8001858F7 /* TourismCell.h */,
+				C2E9E8201CC52BC8001858F7 /* TourismCell.m */,
+				C2E9E8211CC52BC8001858F7 /* TourismCell.xib */,
+				C24705421CC6399400DA77D0 /* FoodCollectionViewCell.h */,
+				C24705431CC6399400DA77D0 /* FoodCollectionViewCell.m */,
+				C24705441CC6399400DA77D0 /* FoodCollectionViewCell.xib */,
+				C247055B1CC64CB600DA77D0 /* FoodTableViewCell.h */,
+				C247055C1CC64CB600DA77D0 /* FoodTableViewCell.m */,
+				C247055D1CC64CB600DA77D0 /* FoodTableViewCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -279,8 +355,18 @@
 				C2D9A83F1CC4E77200F2BE50 /* WeatherViewController.m */,
 				C2D9A8461CC512EE00F2BE50 /* CityCodeTableViewController.h */,
 				C2D9A8471CC512EE00F2BE50 /* CityCodeTableViewController.m */,
-				C2D9A8491CC5136100F2BE50 /* iconfont-shezhichilun.png */,
-				C2D9A84A1CC5136100F2BE50 /* iconfont-cuohao.png */,
+				C2E9E81C1CC52AF1001858F7 /* TourismTableViewController.h */,
+				C2E9E81D1CC52AF1001858F7 /* TourismTableViewController.m */,
+				C247052A1CC5D7D400DA77D0 /* RegionTableViewController.h */,
+				C247052B1CC5D7D400DA77D0 /* RegionTableViewController.m */,
+				C247052D1CC5E5E500DA77D0 /* AttractionsableViewController.h */,
+				C247052E1CC5E5E500DA77D0 /* AttractionsableViewController.m */,
+				C24705301CC6020D00DA77D0 /* DetailsViewController.h */,
+				C24705311CC6020D00DA77D0 /* DetailsViewController.m */,
+				C24705331CC60B0500DA77D0 /* FoodTableViewController.h */,
+				C24705341CC60B0500DA77D0 /* FoodTableViewController.m */,
+				C24705581CC6485E00DA77D0 /* FoodDetailsTableViewController.h */,
+				C24705591CC6485E00DA77D0 /* FoodDetailsTableViewController.m */,
 			);
 			name = ViewContrller;
 			sourceTree = "<group>";
@@ -326,17 +412,39 @@
 				C2114C391CC10D11008226DA /* NSString+Html.m */,
 				C2114C251CC082C3008226DA /* UIView+XMGext.h */,
 				C2114C261CC082C3008226DA /* UIView+XMGext.m */,
+				C24705671CC65E9D00DA77D0 /* PlayVeiw.h */,
+				C24705681CC65E9D00DA77D0 /* PlayVeiw.m */,
+				C24705471CC63D6300DA77D0 /* 轮播图 */,
 				C2B5E5301CC1D13E00830132 /* Header.h */,
+				C2114BF81CC07D0E008226DA /* First */,
 			);
 			name = "其他";
+			sourceTree = "<group>";
+		};
+		C24705471CC63D6300DA77D0 /* 轮播图 */ = {
+			isa = PBXGroup;
+			children = (
+				C24705481CC63D7800DA77D0 /* WYScrollView.h */,
+				C24705491CC63D7800DA77D0 /* WYScrollView.m */,
+			);
+			name = "轮播图";
 			sourceTree = "<group>";
 		};
 		C2B5E5311CC1D2B700830132 /* imgs */ = {
 			isa = PBXGroup;
 			children = (
-				C2D9A84F1CC51C8100F2BE50 /* tu.png */,
+				C24705651CC6557400DA77D0 /* 播放.png */,
+				C247054B1CC644EC00DA77D0 /* 1.jpg */,
+				C247054C1CC644EC00DA77D0 /* 2.jpg */,
+				C247054D1CC644EC00DA77D0 /* 3.jpg */,
+				C247054E1CC644EC00DA77D0 /* 4.jpg */,
+				C247054F1CC644EC00DA77D0 /* 5.jpg */,
+				C247053B1CC61B9600DA77D0 /* qing.png */,
+				C247053C1CC61B9600DA77D0 /* tu.png */,
 				C2D9A84D1CC51A5E00F2BE50 /* u=1050922363,2663955196&fm=21&gp=0.jpg */,
 				C2B5E5341CC1D2E700830132 /* aa.png */,
+				C2D9A8491CC5136100F2BE50 /* iconfont-shezhichilun.png */,
+				C2D9A84A1CC5136100F2BE50 /* iconfont-cuohao.png */,
 			);
 			name = imgs;
 			sourceTree = "<group>";
@@ -384,6 +492,7 @@
 				TargetAttributes = {
 					C2114BDD1CC07CF4008226DA = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = DCV7UT2Q28;
 					};
 				};
 			};
@@ -410,15 +519,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24705521CC644EC00DA77D0 /* 3.jpg in Resources */,
 				C2B5E5351CC1D2E700830132 /* aa.png in Resources */,
+				C24705501CC644EC00DA77D0 /* 1.jpg in Resources */,
+				C24705511CC644EC00DA77D0 /* 2.jpg in Resources */,
 				C2D9A84E1CC51A5E00F2BE50 /* u=1050922363,2663955196&fm=21&gp=0.jpg in Resources */,
 				C2D9A84C1CC5136100F2BE50 /* iconfont-cuohao.png in Resources */,
 				C2114C171CC08165008226DA /* movie.png in Resources */,
+				C24705661CC6557400DA77D0 /* 播放.png in Resources */,
 				C2114BF11CC07CF4008226DA /* LaunchScreen.storyboard in Resources */,
+				C24705541CC644EC00DA77D0 /* 5.jpg in Resources */,
+				C24705531CC644EC00DA77D0 /* 4.jpg in Resources */,
+				C247053D1CC61B9600DA77D0 /* qing.png in Resources */,
+				C24705461CC6399400DA77D0 /* FoodCollectionViewCell.xib in Resources */,
+				C247053E1CC61B9600DA77D0 /* tu.png in Resources */,
 				C2D9A84B1CC5136100F2BE50 /* iconfont-shezhichilun.png in Resources */,
-				C2D9A8501CC51C8100F2BE50 /* tu.png in Resources */,
 				C2114BEE1CC07CF4008226DA /* Assets.xcassets in Resources */,
+				C2E9E8231CC52BC8001858F7 /* TourismCell.xib in Resources */,
 				C2114BEC1CC07CF4008226DA /* Main.storyboard in Resources */,
+				C247055F1CC64CB600DA77D0 /* FoodTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,24 +596,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2E9E81E1CC52AF1001858F7 /* TourismTableViewController.m in Sources */,
 				2316C1C91CC0C97E00872225 /* FifthViewController.m in Sources */,
 				C2D9A8401CC4E77200F2BE50 /* WeatherViewController.m in Sources */,
+				C24705411CC6377B00DA77D0 /* FoodModel.m in Sources */,
 				C2114BE91CC07CF4008226DA /* ViewController.m in Sources */,
 				C2D9A8481CC512EE00F2BE50 /* CityCodeTableViewController.m in Sources */,
+				C247055A1CC6485E00DA77D0 /* FoodDetailsTableViewController.m in Sources */,
 				C2114C271CC082C3008226DA /* UIView+XMGext.m in Sources */,
+				C247054A1CC63D7800DA77D0 /* WYScrollView.m in Sources */,
+				C24705621CC64FD400DA77D0 /* FoodModel11.m in Sources */,
+				C247055E1CC64CB600DA77D0 /* FoodTableViewCell.m in Sources */,
 				C2114C0F1CC07E77008226DA /* FourthViewController.m in Sources */,
 				C2D9A83D1CC4E39900F2BE50 /* CityModel.m in Sources */,
 				C2114C3A1CC10D11008226DA /* NSString+Html.m in Sources */,
 				C2114C151CC07E9D008226DA /* SecontViewController.m in Sources */,
 				C2114C121CC07E90008226DA /* ThirdViewController.m in Sources */,
+				C247052F1CC5E5E500DA77D0 /* AttractionsableViewController.m in Sources */,
+				C247052C1CC5D7D400DA77D0 /* RegionTableViewController.m in Sources */,
 				C2114BE61CC07CF4008226DA /* AppDelegate.m in Sources */,
 				C2D9A8451CC510DF00F2BE50 /* AllCityModel.m in Sources */,
+				C24705321CC6020D00DA77D0 /* DetailsViewController.m in Sources */,
+				C24705291CC5C4ED00DA77D0 /* TourismModel.m in Sources */,
+				C24705691CC65E9D00DA77D0 /* PlayVeiw.m in Sources */,
 				C2114C341CC100D9008226DA /* NewsModel.m in Sources */,
 				C2114C371CC10771008226DA /* NewsViewController.m in Sources */,
 				C2114C311CC100C5008226DA /* NewsCell.m in Sources */,
 				C2D9A7FA1CC4D28900F2BE50 /* WeatherView.m in Sources */,
+				C24705351CC60B0500DA77D0 /* FoodTableViewController.m in Sources */,
 				C2114BE31CC07CF4008226DA /* main.m in Sources */,
 				C2114BFE1CC07D62008226DA /* FirstViewController.m in Sources */,
+				C24705451CC6399400DA77D0 /* FoodCollectionViewCell.m in Sources */,
+				C2E9E8221CC52BC8001858F7 /* TourismCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

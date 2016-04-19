@@ -26,7 +26,7 @@
 }
 -(void)view1{
     
-    self.tabelView1 =[[UITableView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenHeight-44) style:(UITableViewStylePlain)];
+    self.tabelView1 =[[UITableView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenHeight) style:(UITableViewStylePlain)];
     [self.view addSubview:self.tabelView1];
     [self.tabelView1 registerClass:[NewsCell class] forCellReuseIdentifier:@"newscell"];
     self.tabelView1.delegate=self;
@@ -49,7 +49,6 @@
 -(void)data{
     
     self.array =[NSMutableArray array];
-    
     
     NSURLSession *session =[NSURLSession sharedSession];
     //创建url
@@ -91,14 +90,13 @@
             
         });
     }];
-    
     [task resume];
     
 }
 -(void)data22222{
     
-    self.temp+=25;
-    
+    self.temp=self.temp+25;
+    NSLog(@"%d",self.temp);
     NSURLSession *session =[NSURLSession sharedSession];
     //创建url
     NSString *urlstring =[NSString stringWithFormat:@"http://c.m.163.com/nc/article/list/T1348648517839/%d-20.html",self.temp];
@@ -126,7 +124,6 @@
         }
         NSArray *aaaaa =[NewsModel mj_objectArrayWithKeyValuesArray:arrrrr];
         [self.array addObjectsFromArray:aaaaa];
-        self.temp =0;
         
         //返回主线程
         dispatch_async(dispatch_get_main_queue(), ^{

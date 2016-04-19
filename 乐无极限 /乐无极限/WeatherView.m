@@ -18,6 +18,7 @@
     if (self = [super initWithFrame:frame]) {
         
         [self addCustomView];
+        NSLog(@"zou了");
     }
     
     return self;
@@ -27,7 +28,7 @@
 -(void)addCustomView{
     
     _dView  =[[UIImageView alloc] initWithFrame:CGRectMake(0, 64, kWidth, kHeight-64)];
-    _dView.image =[UIImage imageNamed:@"tu.png"];
+//    _dView.image =[UIImage imageNamed:@"tu.png"];
     [self addSubview:_dView];
     
     self.cityLabel = [[UILabel alloc] initWithFrame:CGRectMake(kWidth/4+kWidth/5*2, (kHeight/5-42)/2+22, kWidth/10*3, (kHeight/5-42)/2)];
@@ -58,32 +59,30 @@
     [_dView addSubview:_picView];
     
     
-    UILabel *day = [[UILabel alloc] initWithFrame:CGRectMake(kWidth/4, 22, kWidth/5, (kHeight/5-42)/2)];
+    UILabel *day = [[UILabel alloc] initWithFrame:CGRectMake(kWidth/4, 22, kWidth/5+10, (kHeight/5-42)/2)];
     day.text = @"最高气温:";
     day.font = [UIFont boldSystemFontOfSize:16];
     day.textAlignment = NSTextAlignmentCenter;
     [_dView addSubview:day];
     
-    UILabel *night = [[UILabel alloc] initWithFrame:CGRectMake(kWidth/4, (kHeight/5-42)/2+22, kWidth/5, (kHeight/5-42)/2)];
+    UILabel *night = [[UILabel alloc] initWithFrame:CGRectMake(kWidth/4, (kHeight/5-42)/2+22, kWidth/5+10, (kHeight/5-42)/2)];
     night.text = @"最低温度:";
     night.font = [UIFont boldSystemFontOfSize:16];
     night.textAlignment = NSTextAlignmentCenter;
     [_dView addSubview:night];
     
     _daytemperaLabel = [[UILabel alloc] initWithFrame:CGRectMake(kWidth/4+kWidth/5, 22, kWidth/6, (kHeight/5-42)/2)];
-    //    _daytemperaLabel.backgroundColor = [UIColor blueColor];
     _daytemperaLabel.textAlignment = NSTextAlignmentCenter;
     [_dView addSubview:_daytemperaLabel];
     
     _nighttemperaLabel = [[UILabel alloc] initWithFrame:CGRectMake(kWidth/4+kWidth/5, (kHeight/5-42)/2+22, kWidth/6, (kHeight/5-42)/2)];
-    //    _nighttemperaLabel.backgroundColor = [UIColor cyanColor];
     _nighttemperaLabel.textAlignment = NSTextAlignmentCenter;
     [_dView addSubview:_nighttemperaLabel];
     
-    _RecentlyLabel =[[UILabel alloc] initWithFrame:CGRectMake(kWidth/4-10,kHeight/5+40, kWidth/4,20)];
+    _RecentlyLabel =[[UILabel alloc] initWithFrame:CGRectMake(kWidth/4-10,kHeight/5+40, kWidth/4+20,20)];
     [_dView addSubview:_RecentlyLabel];
     
-    self.fengLabel =[[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(self.RecentlyLabel.frame)+10, kHeight/5+40, kWidth-self.RecentlyLabel.frame.size.width-self.weatherTypeLabel.frame.size.width-25, 20)];
+    self.fengLabel =[[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(self.RecentlyLabel.frame)+10, kHeight/5+40, kWidth-self.RecentlyLabel.frame.size.width-self.weatherTypeLabel.frame.size.width-25+10, 20)];
  
     self.fengLabel.textAlignment =NSTextAlignmentCenter;
     [self.dView addSubview:self.fengLabel];
@@ -91,7 +90,7 @@
     _kongqiLabel.text=@"空气质量 ->";
     [self.dView addSubview:_kongqiLabel];
     
-    self.zhiliangLabel =[[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(self.kongqiLabel.frame), CGRectGetMaxY(self.fengLabel.frame)+35, 30, 20)];
+    self.zhiliangLabel =[[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(self.kongqiLabel.frame), CGRectGetMaxY(self.fengLabel.frame)+35, 150, 20)];
     self.zhiliangLabel.font =[UIFont systemFontOfSize:24];
     self.zhiliangLabel.textColor =[UIColor redColor];
     [self.dView addSubview:self.zhiliangLabel];
